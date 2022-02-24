@@ -1,1 +1,6 @@
 sequelize model:create --name user --attributes firstName:string,lastName:string,age:integer,email:string
+
+
+// foreign key must be modelId:integer //
+sequelize model:create --name pet --attributes name:string,description:text,userId:integer
+
